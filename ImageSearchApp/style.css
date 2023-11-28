@@ -90,11 +90,12 @@ form{
     background-color: rgb(31, 35, 36);
     color: white;
     box-shadow:0 0 5px rgba(0, 0, 0, 0.2);
-    display: block;
+    display: none;
     margin: 20px auto;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color .4s ease-in;
+    
 }
 #show-more-button:hover{
     background-color: rgb(57, 58, 57);
