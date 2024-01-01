@@ -1,0 +1,44 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 150px;
+
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.4rem;
+}
+button{
+    border:none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 7px;
+    transition: all .5s ease-in-out;
+}
+button:hover{
+    opacity: .7;
+}
+#rock{
+    background-color: green;
+}
+#paper{
+    background-color: red;
+}
+#scissors{
+    background-color: yellow;
+}
+#user-score{
+    color:blue;
+}
+#computer-score{
+    color: red;
+}
+#submit{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}

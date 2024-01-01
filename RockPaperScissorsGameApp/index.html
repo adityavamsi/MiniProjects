@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+        <label for="totalGames">Enter games you want to play : </label>
+        <br>
+        <input type="text" name="totalGames" id="totalGames" placeholder="1 to 20" pattern="[1-20]" required>
+        <button id = "submit" onclick="input()">submit</button>
+        <!-- <button id="reset" onclick="resetAll()"></button> -->
+    <p>Choose your move: </p>
+    <div class="buttons">
+        <button id="rock">&#x1F44A;</button>
+        <button id="paper">&#x1f590;</button>
+        <button id="scissors">&#x270c;</button>
+    </div>
+    <p id="result">You Won!</p>
+    <p id="scores">
+        Your score: <span id="user-score">0</span>
+        Computer score: <span id="computer-score">0</span>
+    </p>
+    
+</body>
+<script src="index.js"></script>
+</html>
